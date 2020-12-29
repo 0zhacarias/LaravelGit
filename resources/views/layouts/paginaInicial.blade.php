@@ -6,8 +6,8 @@
     <title>MICROFONEMILIONARIO</title>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link  href="CSS/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/Estilo.css">
+    <link href="public/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/Estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
@@ -43,23 +43,23 @@
             </a>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="MM4.png" class="img-fluid">
+                    <img src="img/MM4.png" class="img-fluid">
                     <div class="carousel-caption">
                         <h3 class="display-3" > MIGROFONE MILIONARIO</h3>
                         <h5>=========================//==========================</h5>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="MM2.png" class="img-fluid">
+                    <img src="img/MM2.png" class="img-fluid">
                     <h3 class="carousel-caption">
 
                     </h3>
                 </div>
                 <div class="carousel-item">
-                    <img src="MM3.png" class="img-fluid">
+                    <img src="img/MM3.png" class="img-fluid">
                     <h4 class="carousel-caption"> </h4>
                 </div>
-                <div class="carousel-item"> <img src="MM1.png" class="img-fluid">
+                <div class="carousel-item"> <img src="img/MM1.png" class="img-fluid">
                     <div class="carousel-caption">
                      </div>
                 </div>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="MM2.png" class="card-img-top" alt="...">
+                        <img src="img/MM2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Semear e Semear</h5>
                             <p class="card-text">Matias Damasio </p>
@@ -113,7 +113,7 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="MM1.png" class="card-img-top" alt="...">
+                        <img src="img/MM1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Vai dormir</h5>
                             <p class="card-text">Anderson Mario.</p>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="MM3.png" class="card-img-top" alt="...">
+                        <img src="img/MM3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card </p>
@@ -143,7 +143,7 @@
             <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-4 container-fluid">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="MM3.png" class="card-img-top" alt="...">
+                        <img src="img/MM3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Luis</h5>
                             <p class="card-text">This is a wider card.</p>
@@ -155,7 +155,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="MM1.png" class="card-img-top" alt="...">
+                        <img src="img/MM1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Adao</h5>
                             <p class="card-text">This card.</p>
@@ -167,7 +167,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="MM1.png" class="card-img-top" alt="...">
+                        <img src="img/MM1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Zhacarias</h5>
                             <p class="card-text"></p>
@@ -179,7 +179,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="MM2.png" class="card-img-top" alt="...">
+                        <img src="img/MM2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Matheus</h5>
                             <p class="card-text">This is a wider card with supportin.</p>
@@ -225,7 +225,7 @@
          <!--carosssel dinamico-->
          <div class="slider owl-carousel">
             <div class="card">
-                <div class="img"><img src="MM2.png" alt=""></div>
+                <div class="img"><img src="img/MM2.png" alt=""></div>
                 <div class="content">
                     <div class="title">Briana Tozour</div>
                     <div class="sub-title">Graphic Designer</div>
@@ -295,6 +295,6 @@
     </footer>
 </body>
 
-<script src="JS/jquery.min.js"></script>
-<script src="JS/bootstrap.js"></script>
+<script src="../../../public/js/jquery.min.js"></script>
+<script src="../../../public/js/bootstrap.js"></script>
 </html>
