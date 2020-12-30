@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Modelo extends Model
+class votoVotador extends Model
 {
     //
 }
