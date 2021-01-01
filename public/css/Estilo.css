@@ -7,7 +7,7 @@
 
 body{
     background-color: #f5f5f5;
- 
+
 }
 
 .logo{
@@ -23,17 +23,17 @@ p.sign{
     text-align: center;
     text-transform: uppercase;
 
-}
-/*menu*/
-nav{
-    padding: 0 10px;
-    position: static;
-    width: 100%;
-    background: #FFF;
-    box-sizing: border-box;
-    height: 100px;
+}a
+     /*menu*/
+ nav{
+     padding: 0 10px;
+     position: static;
+     width: 100%;
+     background: #FFF;
+     box-sizing: border-box;
+     height: 100px;
 
-}
+ }
 nav .itens-menu{
     float: right;
     color: #fff;
@@ -108,9 +108,9 @@ nav .itens-menu ul li a:hover{
     display: flex;
     justify-content: center;
     align-content: center;
-    
+
 }
-.jumbotron,.corpo4{
+.jumbotron{
     padding: 80px;
     font-size: 1.1em;
     text-align: justify;
@@ -129,46 +129,46 @@ nav .itens-menu ul li a:hover{
 .slider{
     max-width: 1100px;
     display: flex;
-  
-  }
-  .slider .card{
+
+}
+.slider .card{
     flex: 2;
     margin: 0 10px;
     background: #fff;
     width:80% ;
-  }
-  .slider .card .img{
+}
+.slider .card .img{
     height: 200px;
     width: 100%;
-  }
-  .slider .card .img img{
+}
+.slider .card .img img{
     height: 100%;
     width: 100%;
-    
-  }
-  .slider .card .content{
+
+}
+.slider .card .content{
     padding: 10px 20px;
-  }
-  .card .content .title{
+}
+.card .content .title{
     font-size: 25px;
     font-weight: 600;
-  }
-  .card .content .sub-title{
+}
+.card .content .sub-title{
     font-size: 20px;
     font-weight: 600;
     color: #162c3b;
     line-height: 20px;
-  }
-  .card .content p{
+}
+.card .content p{
     text-align: justify;
     margin: 10px 0;
-  }
-  .card .content .btn{
+}
+.card .content .btn{
     display: block;
     text-align: left;
     margin: 10px 0;
-  }
-  .card .content .btn button{
+}
+.card .content .btn button{
     background: #0b3d31;
     color: #fff;
     border: none;
@@ -178,11 +178,11 @@ nav .itens-menu ul li a:hover{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2s;
-  }
-  .card .content .btn button:hover{
+}
+.card .content .btn button:hover{
     transform: scale(0.9);
-  }
-  
+}
+
 /*Carossel movel*/
 
 /* RODAPE*/
@@ -224,7 +224,7 @@ footer .btn-link{
 }*/
 
 .card-img-top{
-box-shadow: 1px 2px 10px rgba(1, 3,1,.2);
+    box-shadow: 1px 2px 10px rgba(1, 3,1,.2);
     border: 5px solid #fff;
 
 
@@ -233,7 +233,7 @@ box-shadow: 1px 2px 10px rgba(1, 3,1,.2);
     border-radius:50%;
     height: 200px;
     width: 200px;
-    
+
 }
 .corpo2 .card{
     display: flex;
@@ -276,10 +276,10 @@ box-shadow: 1px 2px 10px rgba(1, 3,1,.2);
 
     }
 
-.col{
-    padding-bottom:30px ;
-}
-  .jumbotron .corpo2, .corpo1,.corpo4{
+    .col{
+        padding-bottom:30px ;
+    }
+    .jumbotron .corpo2, .corpo1,.corpo4{
         padding: 30px;
     }
     .display-4{
