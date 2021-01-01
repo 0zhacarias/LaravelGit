@@ -12,7 +12,20 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
 <body>
-
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+</ul>
 <!--  <input type="checkbox" id="hmenu"><label for="hmenu">&#9776</label>-->
 <nav class="container-fluid shadow-md">
     <div class="itens-menu ">
@@ -28,8 +41,45 @@
     <div class="toglemenu"><i class="fas fa-bars" aria-hidden="true"></i><!--&#9776--></div>
 </nav>
 
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="../img/1.jpg" alt="First slide">
+            <div class="carousel-caption">
+                <h3 class="display-3" > MIGROFONE MILIONARIO</h3>
+                <h5>=========================//==========================</h5>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../img/2.jpg" class="img-fluid">
+            <h3 class="carousel-caption">
+            </h3>
+        </div>
+        <div class="carousel-item">
+            <img src="../img/3.jpg" class="img-fluid">
+            <h3 class="carousel-caption">
+            </h3>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
 <!--CAROUSEL COM  4 FOTOS--
-<section id="carosel" class="#">
+<section id="carosel" class="car">
     <div class="carousel " id="caroselds7d" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#caroselds7d" data-slide-to="0" class="active"></li>
@@ -37,12 +87,12 @@
             <li data-target="#caroselds7d" data-slide-to="2"></li>
             <li data-target="#caroselds7d" data-slide-to="3"></li>
         </ol>
-        <a class="carousel-control-next"href="#caroselds7d" role="button" data-slide="next">
+    <!--    <a class="carousel-control-next"href="#caroselds7d" role="button" data-slide="next">
             <span class="carousel-control-next-icon"></span>
         </a>
         <a class="carousel-control-prev" href="#caroselds7d" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
-        </a>
+        </a>--
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="../img/1.jpg" class="img-fluid">
@@ -54,7 +104,6 @@
             <div class="carousel-item">
                 <img src="../img/2.jpg" class="img-fluid">
                 <h3 class="carousel-caption">
-
                 </h3>
             </div>
             <div class="carousel-item">
@@ -67,7 +116,7 @@
             </div>
         </div>
     </div>
-</section>-->
+</section>
 <!--<div>
     <div class="Lvideo">
 <div class="container" >
@@ -136,8 +185,8 @@
                 </div>
             </div>
         </div>
-
     </div>
+    <hr>
     <div id="votador" class="corpo2 ">
         <h1 class="display-4 align-content-center">Usuarios que mais votão</h1>
         <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-4 container-fluid">

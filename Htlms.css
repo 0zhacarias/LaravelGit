@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+form.container{
+    padding: 5% 300px;
+    color: #162c3b;
+    font-weight: bold;
+}
+.avatar{
+    padding: 10px;
+}
+.avatar img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+.titulo button{
+    padding: 5px;
+    margin: 2%;
+}
+p{
+    font-size: .8em;
+    font-weight: lighter;
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575px) {
+    form.container{
+        padding: 0;
+        color: #162c3b;
+        font-weight: normal;
+    }
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    form.container{
+    padding:0px;
+    color: #162c3b;
+    font-weight: bold;
+}}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    form.container{
+        padding: 5% 50px;
+        color: #162c3b;
+        font-weight: bold;
+    }
+    .avatar{
+        padding: 2%px;
+    }
+
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+}
+
+/*// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width*/

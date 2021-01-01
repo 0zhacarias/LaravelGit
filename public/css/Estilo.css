@@ -23,11 +23,11 @@ p.sign{
     text-align: center;
     text-transform: uppercase;
 
-}a
+}
      /*menu*/
  nav{
      padding: 0 10px;
-     position: static;
+     position:relative;
      width: 100%;
      background: #FFF;
      box-sizing: border-box;
@@ -69,12 +69,13 @@ nav .itens-menu ul li a:hover{
 /*menu fim*/
 
 /*CARROSEL*/
-
-#carosel img{
-    height:calc(80vh);
+#carouselExampleIndicators img{
+    position: relative;
+    height: calc(80vh);
     width: 100%;
 }
-#carosel .carousel-inner .carousel-caption{
+
+#carouselExampleIndicators .carousel-inner .carousel-caption{
     position: absolute;
     top: 40%;
     color:darkslategray;
@@ -86,11 +87,16 @@ nav .itens-menu ul li a:hover{
 
 
 /*CORPO 1*/
+
+.corpo1,.corpo2, corpo3, .corpo4, .corpo5, .corpo6{
+    padding: 50px 100px;
+}
 .corpo1,.corpo2,.corpo4{
     background: #fff;
-    padding: 100px;
 }
-
+.corpo4{
+    height: 50vh;
+}
 .display-4{
     display: flex;
     justify-content:center;
@@ -101,23 +107,6 @@ nav .itens-menu ul li a:hover{
     padding-bottom: 2%;
     top: 0;
 }
-.corpo4{
-    height: 50vh;
-}
-.corpo .row{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-
-}
-.jumbotron{
-    padding: 80px;
-    font-size: 1.1em;
-    text-align: justify;
-}
-/*FIM CORPOS*/
-
-/*Carossel movel*/
 .corpo6 {
     display: grid;
     height: 100%;
@@ -126,6 +115,21 @@ nav .itens-menu ul li a:hover{
     background: #f2f2f2;
     padding: 80px;
 }
+.corpo .row{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.jumbotron{
+
+    font-size: 1.1em;
+    text-align: justify;
+}
+/*FIM CORPOS*/
+
+/*Carossel movel*/
+
 .slider{
     max-width: 1100px;
     display: flex;
@@ -301,3 +305,17 @@ footer .btn-link{
     }
 
 }
+/*Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width*/

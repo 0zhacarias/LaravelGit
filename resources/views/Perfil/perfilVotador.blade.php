@@ -23,7 +23,7 @@
     </li>
 </ul>
 -->
-<nav class=" cor navbar navbar-expand-lg  shadow">
+<nav class="cor navbar navbar-expand-lg navbar-dark  shadow">
     <a class="navbar-brand" href="#">
         <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
     </a>
@@ -55,7 +55,7 @@
 <form class="container">
     <div class="row">
         <div class="col-8">
-            <h3>Editar perfil do Concorrente</h3>
+            <h3>Editar perfil do Voctador</h3>
             <p>Os utilizadores do Pinterest poderão conhecer-te melhor através das seguintes informações</p>
         </div>
         <div class="col-4  titulo">
@@ -102,7 +102,7 @@
             </select>-->
         </div>
         <div class="form-group col-md-4 col-sm-12">
-            <label for="rSenhaNova">Repete a senha nova</label>
+            <label for="rSenhaNova"class="text-center">Repete a nova senha</label>
             <input type="password" class="form-control" id="rSenhaNova">
         </div>
     </div>
@@ -110,23 +110,9 @@
         <label for="ControlTextarea">Sobre o teu perfil</label>
         <textarea class="form-control" id="ControlTextarea" rows="3" placeholder="Escreve um pouco sobre a tua pessoa como artista"></textarea>
     </div>
-    <div class="row">
-        <div class="col-md-6 col-sm-12">
-            <div class="form-group">
-                <label for="ControlFile">Adicionar video a concorrer</label>
-                <input type="file" class="form-control-file" id="ControlFile">
-            </div>
-            <div class="form-group">
-                <!-- <button type="submit" class="btn btn-primary">Sign in</button>-->
-            </div>
-        </div>
-    </div>
-</form>
-<footer class="rodape">
 
-    <p>Copyright &copy; by SoftSoup</p>
-</footer>
-<!---Modal-->
+</form>
+    <!---Modal-->
 </body>
 <script src="/js/jquery.min.js"></script>
 <script src="/js/bootstrap.js"></script>

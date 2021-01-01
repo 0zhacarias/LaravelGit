@@ -28,3 +28,14 @@ Route::get('/todosvideos', function (){
 Route::get('registrarUsuario',function (){
     return view('registrarUsuario');
 });
+
+Route::get('perfilVotador' ,function ()
+{
+    return view('/Perfil/perfilVotador');
+}
+);
+Route::get('perfilConcorrente' ,function ()
+{
+    return view('/Perfil/perfilConcorrente');
+}
+);
