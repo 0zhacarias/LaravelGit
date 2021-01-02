@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>MICROFONEMILIONARIO</title>
+    <title>MICROFONE MILIONARIO</title>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link  href="/css/bootstrap.css" rel="stylesheet">
@@ -12,6 +12,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
 <body>
+<!--
 <ul class="nav nav-tabs">
     <li class="nav-item">
         <a class="nav-link active" href="#">Active</a>
@@ -25,7 +26,7 @@
     <li class="nav-item">
         <a class="nav-link disabled" href="#">Disabled</a>
     </li>
-</ul>
+</ul>-->
 <!--  <input type="checkbox" id="hmenu"><label for="hmenu">&#9776</label>-->
 <nav class="container-fluid shadow-md">
     <div class="itens-menu ">

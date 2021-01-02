@@ -26,9 +26,8 @@
 
     <div class="card" id="telalogin" >
 
-
-
       <div class="card-body">
+          @csrf()
         <form>
           <div class="mb-3">
             <label class="form-label">Email </label>
@@ -44,9 +43,9 @@
             <label class="form-check-label" >Lembrar-me</label>
           </div>
           <div class="d-grid gap-2">
-            <button class="btn btn-success" class="btn btn-primary" type="button">Iniciar sessão</button>
+              <button class="btn btn-success" type="button"><a href="{{ url('viewConcorrente')}}" class="btn-link ">Iniciar sessão</a></button>
             <button  class="btn btn-primary" type="button" id="iniciar"><i class="fab fa-facebook"></i> Iniciar sessão com facebook</button>
-            <button  class="btn btn-danger" class="btn btn-primary" type="button" id="iniciar"><i class="fab fa-google-plus"></i> Iniciar sessão com gmail</button>
+            <button  class="btn btn-danger" type="button" id="iniciar"><i class="fab fa-google-plus"></i> Iniciar sessão com gmail</button>
             <hr>
             <p>Ainda não tem uma conta?  <a href="{{ url('registrarUsuario')}}" style="text-decoration: none;">  Registe-se aqui!</a></p>
           </div>

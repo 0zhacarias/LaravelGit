@@ -2,10 +2,22 @@
     padding: 0;
     margin: 0;
 }
-form.container{
-    padding: 5% 300px;
+
+.container{
+    /*padding: 5% 300px;*/
+    padding:2% 200px;
     color: #162c3b;
     font-weight: bold;
+}
+.shad{
+    padding: 1%;
+
+}
+.shad .card{
+    border: 0;
+}
+.shad .card img{
+    height: 20vh;
 }
 .avatar{
     padding: 10px;
@@ -14,6 +26,7 @@ form.container{
     border-radius: 50%;
     height: 100px;
     width: 100px;
+    padding: 4px;
 
 }
 .titulo button{
@@ -23,6 +36,13 @@ form.container{
 p{
     font-size: .8em;
     font-weight: lighter;
+}
+footer{
+    font-weight: bold;
+    text-align: center;
+    background: #162c3b;
+    color: #fff;
+    height: 5vh;
 }
 /*Extra small devices (portrait phones, less than 576px)*/
 

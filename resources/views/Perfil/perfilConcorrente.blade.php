@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>HTMLS</title>
+    <title>MICROFONE MILIONARIO</title>
     <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="/css/perfil.css" rel="stylesheet">
 </head>
@@ -23,7 +23,7 @@
     </li>
 </ul>
 -->
-<nav class=" cor navbar navbar-expand-lg  shadow">
+<nav class=" cor navbar navbar-expand-lg navbar-dark  shadow">
     <a class="navbar-brand" href="#">
         <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
     </a>
@@ -56,7 +56,7 @@
     <div class="row">
         <div class="col-8">
             <h3>Editar perfil do Concorrente</h3>
-            <p>Os utilizadores do Pinterest poderão conhecer-te melhor através das seguintes informações</p>
+            <p>Os utilizadores do Microfone Milionario poderão conhecer-te melhor através das seguintes informações</p>
         </div>
         <div class="col-4  titulo">
             <button type="submit" class="btn btn-outline-dark">Cancelar</button>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>HTMLS</title>
+    <title>MICROFONE MILIONARIO</title>
     <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="/css/perfil.css" rel="stylesheet">
 </head>
@@ -56,7 +56,7 @@
     <div class="row">
         <div class="col-8">
             <h3>Editar perfil do Voctador</h3>
-            <p>Os utilizadores do Pinterest poderão conhecer-te melhor através das seguintes informações</p>
+            <p>Os Administradores do Microfone Milionario poderão conhecer-te melhor através das seguintes informações</p>
         </div>
         <div class="col-4  titulo">
             <button type="submit" class="btn btn-outline-dark">Cancelar</button>
