@@ -64,7 +64,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Zhacarias Milonga</h5>
                             <p class="card-text">asassssssssssssssss sssssssssssssssssssss sssssssssssssss</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text"><small class="text-muted"><a class="nav-link" href="{{url('/perfilConcorrente')}}">Editar perfil</a></small></p>
                         </div>
                     </div>
                     <div class="col-md-5">

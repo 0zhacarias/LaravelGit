@@ -39,7 +39,7 @@ Route::get('perfilConcorrente' ,function ()
     return view('/Perfil/perfilConcorrente');
 }
 );
-Route::get('mostrarConcorrente' ,function ()
+Route::get('viewConcorrente' ,function ()
 {
     return view('/Perfil/viewConcorrente');
 }
